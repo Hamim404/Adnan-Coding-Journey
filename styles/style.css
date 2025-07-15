@@ -91,6 +91,7 @@ main {
 
 /* Goal Section */
 #goal {
+  margin: 110px 0;
   background-color: #0d132105;
   border-radius: 16px;
   padding: 80px 90px;
@@ -155,7 +156,9 @@ main {
 }
 
 /* Current Target  */
-
+#current-target-section {
+  margin: 110px 0;
+}
 #current-target-section .current-target {
   display: flex;
   justify-content: space-between;
@@ -191,5 +194,53 @@ main {
   letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
+}
 
+/* Next Target Section */
+#next-target-section {
+  margin: 110px 0;
+}
+#next-target-section .next-target {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 16px;
+}
+#next-target-section .next-target .box {
+  width: 100%;
+  height: 219px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+#next-target-section .next-target .box .description {
+  margin-left: 30px;
+}
+#next-target-section .next-target .box h3 {
+  font-size: 24px;
+  color: rgba(13, 19, 33);
+  font-weight: 800;
+  line-height: 36px;
+}
+#next-target-section .next-target .box p {
+  color: rgba(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin: 8px 0;
+}
+#next-target-section .next-target .box a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+  display: inline;
 }
